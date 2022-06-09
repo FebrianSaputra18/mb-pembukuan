@@ -1,6 +1,6 @@
 <template>
   <v-app id="inspire">
-    <v-navigation-drawer v-model="drawer" app>
+    <v-navigation-drawer style="background-color: #bcbcbc" v-model="drawer" app>
       <v-list-item style="background-color: sandybrown">
         <v-list-item-content style="height: 128px" color="accent">
           <v-list-item-title class="text-h6"> Rama Sano </v-list-item-title>
@@ -57,7 +57,7 @@
       </v-btn>
     </v-app-bar>
 
-    <v-main>
+    <v-main style="background-color: #bcbcbc">
       <v-sheet class="overflow-y-auto">
         <v-container>
           <v-row dense>
